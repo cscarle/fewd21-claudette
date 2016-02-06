@@ -1,0 +1,74 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+	background: red;
+	padding: 15px;
+	border: 5px solid black;
+}
+
+p {
+	color: white;
+	background: blue;
+	padding: 15px;
+	border: 5px solid black;
+}
+
+
+/* code is an inline element*/
+code {
+	color: black;
+	background: white;
+	padding: 2px 5px;
+	border: 1px solid black;
+}
+input {
+	border-color: transparent;
+	padding: 10px;
+	box-shadow: none;
+	outline: none;
+}
+input:focus {
+	border: 2px solid red;
+}
+
+.different code {
+	background: green;
+}
+
+.sitenav {
+	margin: 0;
+
+}
+
+
+.sitenav li {
+	display: inline-block;
+}
+
+.sitenav li a {
+	padding: 20px;
+	background: red;
+	border-right: 1px solid white;
+	color: white;
+}
+
+.sitenav li a:hover {
+	background: purple;
+}
+
+.sitenav li a:focus {
+	border: green 2px solid;
+}
+
+	
+
