@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+.block {
+	border: 1px solid black;
+	background: grey;
+	padding: 40px;
+}
+
+.wrapper,
+.block-hdr {
+	width: 100%;
+	margin-bottom: 20px;
+	float: left;
+}
+
+.block-ftr {
+	width: 100%;
+	margin-top: 20px;
+	clear: both;
+}
+
+.block-sb1 {
+	width: 25%;
+	float: left;
+	margin-right: 20px;
+}
+
+.block-sb2 {
+	width: 25%;
+	float: right;
+}
+
+.block-content {
+	width: 40%;
+	float: left;
+}
