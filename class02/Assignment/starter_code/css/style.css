@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr
+Client: Relaxr
+Author: Claudette Scarlett
+Developer @GA in DC
 */
 
 
@@ -46,12 +46,17 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
+     background-color: #f0efef;
+     font-size: 26px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     color: #606161;
+     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+     /*background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);*/
+     background-size: cover;
+}
+
+a {
+  text-decoration: none;
 }
 
 
@@ -59,21 +64,160 @@ body {
 /* LAYOUT
 /*******************************************/
 
-/* Center the container */
-#container {
+/*** Center the container ***/
+.container {
   width: 100%;
-  margin: auto;
-  height: 500px;
-
+  max-width: 980px;
+  margin: 0 auto;
+  /*padding: 0 15px;*/
 }
 
+
+/*** Header ***/
 header {
-
+  background: url(../images/header_bg.jpg) no-repeat center top; /*rgb(23,33,42)*/
+  background-size: cover;
+  padding: 0 0 300px;
 }
 
+.logo {
+  font-weight: 800;
+  font-size: 48px;
+}
+
+header .logo {
+  color: #f0efef;
+  padding: 30px 0 45px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 42px;
+  color: #f0efef;
+  text-align: center;
+  padding: 0 0 35px;
+}
+
+.btn {
+  font-weight: 800;
+  font-size: 24px;
+  border-radius: 5px;
+  width: 205px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.yellow-btn {
+  background-color: #f9e42e;
+  color: #033048;
+}
+
+/* used in "Sign Up Now" section */
+.blue-btn {
+  font-size: 22px;
+  background-color: #033048;
+  color: #ccc;
+  width: 240px;
+  padding: 15px;
+}
+
+
+/*** Benefits ***/
+#benefits {
+  background-color: #f0efef;
+  color: #033048;
+  padding: 45px 0 45px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+#benefits p, #benefits ul {
+  font-weight: 200;
+  font-size: 24px;
+  color: #606161;
+  width: 600px;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+
+/*** Testimony ***/
+#testimony {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top; /*rgb(23,33,42)*/
+  background-size: cover;
+  color: #fff;
+  padding: 50px 0 50px;
+}
+
+blockquote {
+  font-weight: 200;
+  font-style: italic;
+  font-size: 31px;
+  text-align: center;
+  margin: 0 auto;
+  width: 550px;
+  padding: 20px 0 20px;
+}
+
+blockquote span {
+  font-weight: 600;
+  font-style: normal;
+  display: block;
+}
+
+
+/*** Sign Up Now ***/
+#signup {
+  background-color: #f9e42e;
+  padding: 25px 0;
+}
+
+
+/*** Footer ***/
 footer {
-
+  background-color: #121212;
+  padding: 25px 0 25px;
+  text-align: center;
 }
+
+footer .logo {
+  color: #f9e42e;
+  margin: 0;
+  padding: 25px 0 70px;  
+}
+
+#wrapper {
+  width: 320px;
+}
+
+.twitter {
+  width: 48%;
+  padding: 0 0 60px 575px;
+  float: left;
+  /*margin-right: 20px;*/
+}
+
+.facebook {
+  width: 48%;
+  padding: 0 570px 60px 0;
+  float: right;
+}
+
+.copyright {
+  clear: both;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ccc;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
