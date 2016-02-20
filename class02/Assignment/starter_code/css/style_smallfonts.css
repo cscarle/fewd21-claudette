@@ -52,7 +52,6 @@ body {
      color: #606161;
      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
      /*background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);*/
-     font-weight: 300;
      background-size: cover;
 }
 
@@ -83,7 +82,7 @@ header {
 
 .logo {
   font-weight: 800;
-  font-size: 48px;
+  font-size: 24px;
 }
 
 header .logo {
@@ -93,7 +92,7 @@ header .logo {
 
 h2 {
   font-weight: 600;
-  font-size: 42px;
+  font-size: 24px;
   color: #f0efef;
   text-align: center;
   padding: 0 0 35px;
@@ -101,9 +100,8 @@ h2 {
 
 .btn {
   font-weight: 800;
-  font-size: 24px;
   border-radius: 5px;
-  width: 205px;
+  width: 115px;
   padding: 10px;
   display: block;
   text-align: center;
@@ -111,17 +109,16 @@ h2 {
 }
 
 .yellow-btn {
+  font-size: 14px;
   background-color: #f9e42e;
   color: #033048;
 }
 
 /* used in "Sign Up Now" section */
 .blue-btn {
-  font-size: 22px;
+  font-size: 12px;
   background-color: #033048;
   color: #ccc;
-  width: 240px;
-  padding: 15px;
 }
 
 
@@ -134,7 +131,7 @@ h2 {
 
 h3 {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 20px;
   text-align: center;
   margin: 0;
   padding-bottom: 25px;
@@ -142,9 +139,8 @@ h3 {
 
 #benefits p, #benefits ul {
   font-weight: 200;
-  font-size: 24px;
-  color: #606161;
-  width: 600px;
+  font-size: 13px;
+  width: 445px;
   margin: 0 auto;
   padding-bottom: 15px;
 }
@@ -161,11 +157,10 @@ h3 {
 blockquote {
   font-weight: 200;
   font-style: italic;
-  font-size: 31px;
+  font-size: 18px;
   text-align: center;
   margin: 0 auto;
-  width: 550px;
-  padding: 20px 0 20px;
+  width: 320px;
 }
 
 blockquote span {
@@ -191,9 +186,16 @@ footer {
 
 footer .logo {
   color: #f9e42e;
-  margin: 0;
-  padding: 25px 0 70px;  
+  padding-bottom: 30px;  
 }
+
+/*header logo
+.logo {
+  font-weight: 800;
+  font-size: 24px;
+  color: #f0efef;
+  padding: 30px 0 45px;
+}*/
 
 #wrapper {
   width: 320px;
@@ -213,10 +215,9 @@ footer .logo {
 }
 
 .copyright {
-  clear: both;
-  font-size: 18px;
+  font-size: 9px;
   font-weight: 600;
-  color: #ccc;
+  clear: both;
 }
 
 
