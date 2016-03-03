@@ -17,6 +17,7 @@ Developer @GA in DC
      box-sizing: border-box; /* IE */
 }
 
+
 /* Clear fix hack */
 .clearfix:after {
      content: ".";
@@ -52,7 +53,6 @@ body {
      color: #606161;
      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
      /*background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);*/
-     font-weight: 300;
      background-size: cover;
 }
 
@@ -72,6 +72,8 @@ a {
   margin: 0 auto;
   /*padding: 0 15px;*/
 }
+/*ND: The container in the design spec isn't quite centered so
+play around with your padding more to move it a bit to the left*/
 
 
 /*** Header ***/
@@ -84,6 +86,8 @@ header {
 .logo {
   font-weight: 800;
   font-size: 48px;
+  margin: auto;
+  padding-top: 20px;
 }
 
 header .logo {
@@ -185,35 +189,23 @@ blockquote span {
 /*** Footer ***/
 footer {
   background-color: #121212;
-  padding: 25px 0 25px;
+  padding: 45px 0 30px;
   text-align: center;
 }
 
 footer .logo {
   color: #f9e42e;
   margin: 0;
-  padding: 25px 0 70px;  
+  margin-bottom: 70px;
 }
 
-#wrapper {
-  width: 320px;
-}
-
-.twitter {
-  width: 48%;
-  padding: 0 0 60px 575px;
-  float: left;
-  /*margin-right: 20px;*/
-}
-
-.facebook {
-  width: 48%;
-  padding: 0 570px 60px 0;
-  float: right;
+footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 56px 46px 0;
 }
 
 .copyright {
-  clear: both;
   font-size: 18px;
   font-weight: 600;
   color: #ccc;
@@ -223,7 +215,3 @@ footer .logo {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
-

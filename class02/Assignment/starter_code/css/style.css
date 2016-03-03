@@ -46,14 +46,14 @@ Developer @GA in DC
 /*******************************************/
 
 body {
-     background-color: #f0efef;
-     font-size: 26px;
-     line-height: 1.4;
-     color: #606161;
-     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-     /*background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);*/
-     font-weight: 300;
-     background-size: cover;
+  background-color: #f0efef;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  /*background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);*/
+  font-weight: 300;
+  background-size: cover;
 }
 
 a {
